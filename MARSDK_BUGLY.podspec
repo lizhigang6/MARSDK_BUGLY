@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 火星人打包工具  BUGLY
                        DESC
 
-  s.homepage         = 'https://github.com/izhigang6@163.com/MARSDK_BUGLY.git'
+  s.homepage         = 'https://github.com/lizhigang6/MARSDK_BUGLY.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'izhigang6@163.com' => 'lizhigang6@163.com' }
-  s.source           = { :git => 'https://github.com/izhigang6@163.com/MARSDK_BUGLY.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lizhigang6/MARSDK_BUGLY.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
