@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MARSDK_BUGLY_Tests' do
+  pod 'MARSDK_BUGLY', :path => '../'
+  
+  
+end
