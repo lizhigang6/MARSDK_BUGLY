@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MARSDK_BUGLY'
-  s.version          = '0.1.2'
+  s.version          = '3.0'
   s.summary          = '火星人打包工具'
 
 
