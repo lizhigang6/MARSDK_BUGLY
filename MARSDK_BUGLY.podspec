@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MARSDK_BUGLY'
-  s.version          = '5.0.1'
+  s.version          = '5.0.2'
   s.summary          = '火星人打包工具'
 
 
@@ -18,5 +18,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks = 'MARSDK_BUGLY/Classes/Bugly.framework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  
+  s.ios.library = "z","c++"
+  s.frameworks = "SystemConfiguration","Security"
 
 end
